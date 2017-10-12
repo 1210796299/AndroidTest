@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+    <TextView
+        android:id="@+id/showCount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="选中"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

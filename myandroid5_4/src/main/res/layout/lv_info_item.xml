@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/cb_select"
+            android:focusable="false"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_lv_name"
+                android:text="姓名:"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/lv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="12333"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+       <LinearLayout
+           android:layout_marginRight="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           >
+           <ImageView
+               android:layout_gravity="right"
+               android:layout_marginLeft="7dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="5dp"
+               android:id="@+id/iv_head"
+               android:layout_width="140dp"
+               android:layout_height="match_parent"
+               android:src="@mipmap/icon_1"
+               />
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
